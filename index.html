@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow Everyday</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f9f4;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      background-color: white;
+      padding: 0.7rem 1.5rem;
+      border-radius: 5px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 280px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      color: #4CAF50;
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form {
+      max-width: 400px;
+      margin: 2rem auto;
+      text-align: left;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Grow Everyday</h1>
+  <p>Simple Skills for a Better Life</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#resources">Free Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="section-title">Who do you want to learn for?</div>
+  <div class="card-container">
+    <div class="card">
+      <h3>Kids</h3>
+      <p>Fun and basic habits like cleaning, helping at home, and responsibility.</p>
+    </div>
+    <div class="card">
+      <h3>Teens</h3>
+      <p>Learn money, mindset, planning, and preparing for the future.</p>
+    </div>
+    <div class="card">
+      <h3>Adults</h3>
+      <p>Life hacks for saving money, managing time, eating well, and handling stress.</p>
+    </div>
+    <div class="card">
+      <h3>Seniors</h3>
+      <p>Simple digital skills, wellness tips, and independent living guidance.</p>
+    </div>
+  </div>
+</section>
+
+<section id="courses">
+  <div class="section-title">Sample Courses</div>
+  <div class="card-container">
+    <div class="card">
+      <h3>Helping at Home (Kids)</h3>
+      <p>Learn to help parents, keep your room tidy, and feel responsible.</p>
+    </div>
+    <div class="card">
+      <h3>Money Basics (Teens)</h3>
+      <p>Understand budgeting, saving, and the value of money early in life.</p>
+    </div>
+    <div class="card">
+      <h3>Smart Habits (Adults)</h3>
+      <p>Daily routines to improve health, reduce stress, and save money.</p>
+    </div>
+  </div>
+</section>
+
+<section id="resources">
+  <div class="section-title">Free Downloads</div>
+  <div class="card-container">
+    <div class="card">
+      <h3>Weekly Planner</h3>
+      <p>Download a printable weekly life skills planner.</p>
+    </div>
+    <div class="card">
+      <h3>Budget Sheet</h3>
+      <p>Easy-to-use budgeting sheet for teens and adults.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">Contact Us</div>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Grow Everyday. All rights reserved.
+</footer>
+
+</body>
+</html>
